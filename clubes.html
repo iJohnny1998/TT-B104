@@ -13,7 +13,7 @@
     <!--Scripts-->
     <script src="./librerias/bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
 
-    <title>Profesores</title>
+    <title>Catálogo de clubes</title>
 </head>
 
 <body>
@@ -22,12 +22,12 @@
             <div class="sidenav col-2">
                 <ul class="p-0">
                     <li>
-                        <h1>ClubESCOM</h1>
+                        <h1>ASISCLUBESCOM</h1>
                     </li>
                     <hr>
                     <li><a href="index.html">Panel Principal</a></li>
-                    <li><a href="#">Profesores</a></li>
                     <li><a href="clubes.html">Clubes</a></li>
+                    <li><a href="profesores.html">Profesores</a></li>
                     <li><a href="catalogoClubes.html">Catálogo de clubes</a></li>
                     <hr>
                     <li><a href="#">Mi cuenta</a></li>
@@ -36,30 +36,73 @@
             <div class="col">
                 <div class="row p-4">
                     <div class="col">
-                        <div class="row">
+                        <div class="row align-items-center">
                             <div class="col">
-                                <h1>Clubes</h1>
-                                <hr>
+                                <h1>Clubes activos</h1>
                             </div>
+                            <div class="col text-end">
+                                <button class="btn btn-primary">Alta</button>
+                                <button class="btn btn-secondary">Historial de clubes</button>
+                            </div>
+                            <hr>
                         </div>
                         <div class="row table-responsive mt-4">
                             <div class="col p-0">
                                 <table id="tabla" class="table table-hover mb-0 py-0">
                                     <thead>
                                         <tr>
-                                            <th scope="col" class="nombreColumna">No.Empleado</th>
+                                            <th scope="col" class="nombreColumna">ID</th>
                                             <th scope="col" class="nombreColumna">Nombre</th>
-                                            <th scope="col" class="nombreColumna">RFC</th>
-                                            <th scope="col" class="nombreColumna">H.Entrada</th>
-                                            <th scope="col" class="nombreColumna">H.Salida</th>
-                                            <th scope="col" class="nombreColumna">Incidencia</th>
+                                            <th scope="col" class="nombreColumna">Líder</th>
+                                            <th scope="col" class="nombreColumna">Profesor</th>
+                                            <th scope="col" class="nombreColumna">Administrativo</th>
+                                            <th></th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        
+                                        <tr>
+                                            <td>6</td>
+                                            <td>Club de Mini-Robótica</td>
+                                            <td></td>
+                                            <td>María del Rosario Rocha Bernabé</td>
+                                            <td>Iván Giovanni Mosso</td>
+                                            <td><button class="btn btn-info">Editar</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td>Club de Algoritmia (ACM Student Chapter)</td>
+                                            <td>Juan Pérez García</td>
+                                            <td>Edgardo Adrián Franco Martínez</td>
+                                            <td>Iván Giovanni Mosso</td>
+                                            <td><button class="btn btn-info">Editar</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td>Club de Bio-Robótica</td>
+                                            <td></td>
+                                            <td>Gabriela de Jesús López Ruíz</td>
+                                            <td>Iván Giovanni Mosso</td>
+                                            <td><button class="btn btn-info">Editar</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td>Developer Student Club ESCOM-IPN</td>
+                                            <td>Carla Sánchez Martínez</td>
+                                            <td>Axel Ernesto Moreno Cervantes</td>
+                                            <td>Iván Giovanni Mosso</td>
+                                            <td><button class="btn btn-info">Editar</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td>Club de Seguridad y Hacking Ético</td>
+                                            <td>Sofía Martínez García</td>
+                                            <td>Gilberto Sánchez Quintanilla</td>
+                                            <td>Iván Giovanni Mosso</td>
+                                            <td><button class="btn btn-info">Editar</button></td>
+                                        </tr>
                                     </tbody>
                                     <tr class='noSearch hide'>
-                                        <td colspan="9"></td>
+                                        <td colspan="5"></td>
                                     </tr>
                                 </table>
                             </div>
