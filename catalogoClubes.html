@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="./librerias/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/sidenav.css">
+
+    <!--Scripts-->
+    <script src="./librerias/bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+
+    <title>Profesores</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="sidenav col-2">
+                <ul class="p-0">
+                    <li>
+                        <h1>ClubESCOM</h1>
+                    </li>
+                    <hr>
+                    <li><a href="index.html">Panel Principal</a></li>
+                    <li><a href="#">Profesores</a></li>
+                    <li><a href="clubes.html">Clubes</a></li>
+                    <li><a href="catalogoClubes.html">Catálogo de clubes</a></li>
+                    <hr>
+                    <li><a href="#">Mi cuenta</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="row p-4">
+                    <div class="col">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <h1>Catálogo de clubes</h1>
+                            </div>
+                            <div class="col text-end">
+                                <td><button class="btn btn-primary">Alta</button></td>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="row table-responsive mt-4">
+                            <div class="col p-0">
+                                <table id="tabla" class="table table-hover mb-0 py-0">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="nombreColumna">ID</th>
+                                            <th scope="col" class="nombreColumna">Nombre</th>
+                                            <th scope="col" class="nombreColumna">Descripción</th>
+                                            <th scope="col" class="nombreColumna">Categoría</th>
+                                            <th></th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Club de Mini-Robótica</td>
+                                            <td>Coordinadora: M. en C. María del Rosario Rocha Bernabé
+                                                Punto de reunión: Planta baja, edificio de laboratorios (junto a los
+                                                laboratorios de electrónica analógica)
+                                                Contacto: rosario.rocha@gmail.com :: FB/CMR.ESCOM/</td>
+                                            <td>Académico</td>
+                                            <td><button class="btn btn-info">Editar</button></td>
+                                            <td><button class="btn btn-danger">Borrar</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Club de Algoritmia (ACM Student Chapter)</td>
+                                            <td>Coordinador: M. en C. Edgardo Adrián Franco Martínez
+                                                Contacto: edfranco@ipn.mx :: FB/algoritmiaescom</td>
+                                            <td>Académico</td>
+                                            <td><button class="btn btn-info">Editar</button></td>
+                                            <td><button class="btn btn-danger">Borrar</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Club de Bio-Robótica</td>
+                                            <td>Coordinadora: M. en C. Gabriela de Jesús López Ruíz
+                                                Contacto: bioroboticaescom@gmail.com ::
+                                                www.comunidad.escom.ipn.mx/biorobotica/</td>
+                                            <td>Académico</td>
+                                            <td><button class="btn btn-info">Editar</button></td>
+                                            <td><button class="btn btn-danger">Borrar</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>Developer Student Club ESCOM-IPN</td>
+                                            <td>Coordinadora: M. en C. Axel Ernesto Moreno Cervantes
+                                                Contacto: amorenoc@ipn.mx :: DSC - ESCOM</td>
+                                            <td>Académico</td>
+                                            <td><button class="btn btn-info">Editar</button></td>
+                                            <td><button class="btn btn-danger">Borrar</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Club de Seguridad y Hacking Ético</td>
+                                            <td>Coordinadora: M. en C. Gilberto Sánchez Quintanilla
+                                                Contacto: mcsquintanillag@yahoo.com.mx :: FB/CSI.ESCOM.oficial</td>
+                                            <td>Académico</td>
+                                            <td><button class="btn btn-info">Editar</button></td>
+                                            <td><button class="btn btn-danger">Borrar</button></td>
+                                        </tr>
+                                    </tbody>
+                                    <tr class='noSearch hide'>
+                                        <td colspan="9"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
