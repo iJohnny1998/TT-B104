@@ -18,6 +18,13 @@ hr {
     padding-left: 20px;
 }
 
+.tarjetaForm {
+    background-color: #F1F1F1;
+    border-radius: 5px;
+    border-color: black;
+    border: #000000 1px solid;
+}
+
 input,
 select,
 ::placeholder {

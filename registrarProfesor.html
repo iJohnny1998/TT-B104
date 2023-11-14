@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="./librerias/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/sidenav.css">
+
+    <!--Scripts-->
+    <script src="./librerias/bootstrap-5.3.1-dist/js/bootstrap.bundle.js"></script>
+
+    <title>Registrar profesor</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="sidenav col-xl-2 col-lg-3">
+                <ul class="p-0">
+                    <li>
+                        <h2>ASISCLUBESCOM</h2>
+                    </li>
+                    <hr>
+                    <li><a href="index.html">Panel principal</a></li>
+                    <li><a href="clubes.html">Clubes</a></li>
+                    <li><a href="profesores.html">Profesores</a></li>
+                    <li><a href="catalogoClubes.html">Catálogo de clubes</a></li>
+                    <hr>
+                    <li><a href="#">Mi cuenta</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="row p-4 mt-0">
+                    <div class="col">
+                        <div class="row align-items-center">
+                            <div class="col text-center">
+                                <h1>Registrar profesor</h1>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="row mt-4 justify-content-center">
+                            <div class="col-5 tarjetaForm px-5 py-2">
+                                <form id="formulario" name="formulario" action="#" method="POST">
+                                    <div class="row pt-2">
+                                        <div class="col">
+                                            <input id="idTrabajador" name="idTrabajador" value=""
+                                                class="form-control text-center" type="text" placeholder="ID trabajador"
+                                                autocomplete="off" required>
+                                        </div>
+                                    </div>
+                                    <div class="row pt-2">
+                                        <div class="col">
+                                            <input id="nombre" name="nombre" value="" class="form-control text-center"
+                                                type="input" placeholder="Nombre" autocomplete="off"
+                                                pattern="[A-Za-z ]{2,}" required>
+                                        </div>
+                                    </div>
+                                    <div class="row pt-2">
+                                        <div class="col">
+                                            <input id="apellidoPaterno" name="apellidoPaterno" value=""
+                                                class="form-control text-center" type="input"
+                                                placeholder="Apellido paterno" autocomplete="off"
+                                                pattern="[A-Za-z ]{2,}" required>
+                                        </div>
+                                    </div>
+                                    <div class="row pt-2">
+                                        <div class="col">
+                                            <input id="apellidoMaterno" name="apellidoMaterno" value=""
+                                                class="form-control text-center" type="input"
+                                                placeholder="Apellido materno" autocomplete="off"
+                                                pattern="[A-Za-z ]{2,}" required>
+                                        </div>
+                                    </div>
+                                    <div class="row pt-2">
+                                        <div class="col">
+                                            <input id="correo" name="correo" value="" class="form-control text-center"
+                                                type="email" placeholder="Correo" autocomplete="off" required>
+                                        </div>
+                                    </div>
+                                    <div class=" row pt-2">
+                                        <div class="col">
+                                            <input id="password" name="password" value=""
+                                                class="form-control text-center" type="email" placeholder="Contraseña"
+                                                autocomplete="off" required>
+                                        </div>
+                                    </div>
+                                    <div class=" row pt-2">
+                                        <div class="col text-center">
+                                            <button class="btn btnPersonalizado" type="submit"
+                                                name="btnSubmit">Aceptar</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
